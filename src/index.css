@@ -1,0 +1,132 @@
+*{
+  /* font-family: 'Open Sans', sans-serif !important; */
+}
+
+h5{
+  margin: 0 !important;
+}
+
+html{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+#page1{
+  background-image: url(59-594529_math-study.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-position: center;
+  height: 35rem;
+}
+
+.underline{
+  border-color: #007bff;
+  /* width: 5%; */
+}
+
+img[src="human-icon.png"]{
+  width: 85%;
+  vertical-align: middle;
+  text-align: center;
+  overflow: visible;
+}
+
+.bordered-boxes{
+  border: 1px solid silver;
+  border-radius: 3px;
+}
+
+#list{
+  line-height: 3.8rem;
+  list-style-image: url(tick-icon.png);
+  vertical-align: middle;
+  list-style-position: outside;
+}
+
+button{
+  /* border-radius: 10px !important; */
+}
+
+#page3-img{
+  background-image: url(work-with-laptop.jpg);
+  background-attachment: fixed;
+  background-position:center ;
+}
+
+.jumbotron{
+  margin-bottom: 0px !important;
+}
+
+#page3-img-in{
+  padding: 10vw 20vh;
+  line-height: 3 ;
+}
+
+.page4-grid{
+  line-height: 1.5;
+}
+
+#blue{
+  background-color: #469fff;
+}
+
+#face-badge{
+  transform: translateY(-70px);
+  line-height: 2;
+}
+
+.card{
+  padding: 0px !important;
+  border: 1rem solid #e9ecef !important;
+  border-radius: 40px !important;
+}
+
+img[alt=card-img]{
+  border-radius: 25px 25px 0 0 !important;
+}
+
+img[alt="laptop"]{
+  position: absolute;
+}
+
+img[alt="login icon"]{
+  width: 13vw;
+  align-self: center;
+}
+
+#submit{
+  width: 100%;
+}
+
+[placeholder]::-webkit-input-placeholder
+{
+    padding-left: 0%;
+    opacity: 100%;
+    transition: padding-right .3s , opacity .3s;
+}
+
+[placeholder]:focus::-webkit-input-placeholder
+{
+    padding-left: 20px;
+    opacity: 0%;
+    transition: all .3s;
+}
+
+.cart-item{
+  width: 100%;
+}
+
+#cart-basket{
+  width: 60%;
+}
+
+img[alt=cart-card-img]{
+  width: 30%;
+}
